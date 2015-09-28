@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
 
-version = '0.12'
+version = '0.13'
 
 long_description = (
     read('README.txt')
@@ -41,6 +41,7 @@ setup(name='collective.transcode.daemon',
       author_email='we@unweb.me',
       url='https://github.com/plumi/collective.transcode.daemon',
       license='GPL',
+      namespace_packages=['collective', 'collective.transcode'],
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=False,
