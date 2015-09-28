@@ -2,6 +2,7 @@
 -----------------
 
  - Disable directory listing [Gagaro]
+ - Specify namespace packages [jean]
 
 0.12 (2012-12-03)
 -----------------
